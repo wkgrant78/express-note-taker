@@ -6,9 +6,7 @@ Create an application that can be used to write, save, and delete notes. This ap
 
 ### ACCEPTANCE CRITERIA/REQUIREMENTS:
 
-* Application should allow users to create and save notes.
-* Application should allow users to view previously saved notes.
-* Application should allow users to delete previously saved notes.
+* Application should allow users to create and save notes, view and delete previously saved notes.
 * HTML routes: 
     * GET `/notes` (`notes.html` file)
     * GET `*` (`index.html` file)
@@ -20,16 +18,17 @@ Create an application that can be used to write, save, and delete notes. This ap
 
 ### DEVELOPMENT PLAN:
 
-* Create server.js using Express
-* Link GET & POST reqs to HTML files
-* Use `fs` to retrieve (GET), parse, and write (POST) new notes to JSON file
-* 
-
+* Install npm and create main folders, import provided files
+* Server.js - create "express" server, setup port, data parsing, static route and start server
+* Use `fs` for POST, GET, and DELETE methods to write/retrieve from JSON file
+* Link htmls to GET/POST requests
+* Routes - create URL call to api and html for GET, POST, DELETE requests, need data.js file to store user inputs
 
 ### COMMITS:
 
-* Initial commit - created repo, .gitignore, README.md, Develop, db and public folders, added provided html, css and index.js files, npm install, and initial server.js updates
-*
+* Initial commit - created repo, .gitignore, README.md, installed npm
+* Develop initial server.js, import provided files/folders
+* Create journalData.js to store user inputs, updated README
 
 
 ### SUBMISSION REQUIREMENTS:
@@ -39,4 +38,8 @@ Create an application that can be used to write, save, and delete notes. This ap
 ### HEROKU URL:
 
 
+
 ### GIThUB URL:
+
+https://github.com/wkgrant78/ExpressNoteTaker.git
+
