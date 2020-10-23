@@ -31,14 +31,20 @@ Create an application that can be used to write, save, and delete notes. This ap
 * Create journalData.js to store user inputs, updated README
 * Created route .js files and db files - notes.html not functioning
 * Changed html.js code - notes.html not functioning
+* Changed api.js code - notes.html functioning
+* Changed styling
+* Deployed app via Heroku
+* Added screenshots and URL links
 
+### SCREENSHOTS:
 
+<img src="index.PNG" alt="home page">
 
-### SUBMISSION REQUIREMENTS:
+<img src="notes.PNG" alt="notes page">
 
 ### HEROKU URL:
 
-
+https://express-your-notes.herokuapp.com/
 
 ### GIThUB URL:
 
