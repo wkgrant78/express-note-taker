@@ -38,9 +38,9 @@ Create an application that can be used to write, save, and delete notes. This ap
 
 ### SCREENSHOTS:
 
-<img src="index.PNG" alt="home page">
+<img src="/imgs/index.PNG" alt="home page">
 
-<img src="notes.PNG" alt="notes page">
+<img src="/imgs/notes.PNG" alt="notes page">
 
 ### HEROKU URL:
 
