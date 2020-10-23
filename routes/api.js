@@ -9,6 +9,8 @@ module.exports = function (app) {
     res.json(journalData);
   });
 
+
+  
   // POST request
   app.post("/api/journals", function (req, res) {
     journalData.push(req.body);
