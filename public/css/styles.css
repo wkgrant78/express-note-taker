@@ -22,6 +22,10 @@
     flex-direction: row;
   }
   
+  .navbar {
+    background-color: black;
+  }
+
   .save-note {
     color: white;
   }
@@ -35,6 +39,8 @@
   
   .jumbotron {
     text-align: center;
+    background-color: black;
+    margin-top: 16px;
   }
   
   .note-journal, .note-textarea, .note-title, .note-text {
@@ -61,7 +67,7 @@
   }
   
   .note-title:read-only, .note-textarea:read-only {
-    color: #777676;
+    color: #18bc9c;
   }
   
   .list-container .card {
@@ -95,3 +101,4 @@
     padding: 20px;
     cursor: pointer;
   }
+
