@@ -29,11 +29,12 @@ Create an application that can be used to write, save, and delete notes. This ap
 * Initial commit - created repo, .gitignore, README.md, installed npm
 * Develop initial server.js, import provided files/folders
 * Create journalData.js to store user inputs, updated README
+* Created route .js files and db files - notes.html not functioning
+* Changed html.js code - notes.html not functioning
+
 
 
 ### SUBMISSION REQUIREMENTS:
-
-
 
 ### HEROKU URL:
 
